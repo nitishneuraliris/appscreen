@@ -356,7 +356,7 @@ const SignUp = (props) => {
           )}
 
           {/* Terms and services */}
-          <View style={styles.textPrivate}>
+         {/*  <View style={styles.textPrivate}>
             <Text style={styles.color_textPrivate}>
               {" "}
               By signing up you agree to our
@@ -374,7 +374,7 @@ const SignUp = (props) => {
                 Privacy policy
               </Text>
             </TouchableOpacity>
-          </View>
+          </View> */}
 
           {/* SignIn */}
           <View style={styles.button}>

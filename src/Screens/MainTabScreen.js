@@ -116,7 +116,7 @@ const HomeStackScreen = ({ navigation }) => (
         headerRight: () => (
           <View style={{ flexDirection: "row", marginRight: 10 }}>
             <TouchableOpacity style={{ paddingHorizontal: 10, marginTop: 5 }}>
-              <Text style={{ fontSize: 20, fontWeight: "bold" }}>Location</Text>
+              <Text style={{ fontSize: 20, fontWeight: "bold" }}>Bangalore</Text>
             </TouchableOpacity>
           </View>
         ),
@@ -130,7 +130,7 @@ const HomeStackScreen = ({ navigation }) => (
         headerRight: () => (
           <View style={{ flexDirection: "row", marginRight: 10 }}>
             <TouchableOpacity style={{ paddingHorizontal: 10, marginTop: 5 }}>
-              <Text style={{ fontSize: 20, fontWeight: "bold" }}>Location</Text>
+              <Text style={{ fontSize: 20, fontWeight: "bold" }}>Bangalore</Text>
             </TouchableOpacity>
           </View>
         ),

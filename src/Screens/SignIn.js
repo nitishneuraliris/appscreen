@@ -21,6 +21,7 @@ import {
   regexpassword,
 } from "../../Constant";
 import { ValidationMessage } from "../../ValidationMessage";
+import Logo from "../../assets/react_native_logo.png"
 
 import * as Animatable from "react-native-animatable";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
@@ -190,15 +191,17 @@ const SignIn = (props) => {
         textContent={"Loading..."}
         textStyle={styles.spinnerTextStyle}
       />
-      <StatusBar backgroundColor="#009387" barStyle="light-content" />
+      <StatusBar backgroundColor="#004c99" barStyle="light-content"  />
       <SafeAreaView>
         <View style={styles.placement}>
-          <Animatable.Image
+          <Image source={Logo} style={styles.logo} />
+         {/*  <Animatable.Image
             animation="bounceIn"
             // source={require("./assets/srlogo.png")}
             style={styles.logo}
             resizeMode="center"
-          />
+          /> */}
+        {/*   <Text>Demo</Text> */}
         </View>
       </SafeAreaView>
       <View style={styles.footer}>
@@ -413,9 +416,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   logo: {
-    width: height_logo,
-    height: height_logo,
-    top: 20,
-    left: 60,
+    width: 200,
+    height: 200,
+    marginBottom:30,
+    top: 0,
+    left:80,
+    resizeMode:"contain",
   },
 });

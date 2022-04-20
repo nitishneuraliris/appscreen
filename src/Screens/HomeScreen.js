@@ -22,7 +22,7 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container}>
-      <StatusBar barStyle={theme.dark ? "light-content" : "dark-content"} />
+     {/*  <StatusBar barStyle={theme.dark ? "light-content" : "dark-content"} translucent /> */}
       <View style={styles.sliderContainer}>
         <Swiper autoplay height={200} activeDotColor="#004c99">
           <View style={styles.slide}>
